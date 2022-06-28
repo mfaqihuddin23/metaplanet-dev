@@ -56,25 +56,25 @@ h6{
 
 .body-1{
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 20px;
   line-height: 150%;
 }
 .body-2{
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 150%;
 }
 .body-3{
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 150%;
 }
 .body-4{
   font-style: normal;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 12px;
   line-height: 150%;
 }
@@ -83,10 +83,10 @@ h6{
 
 /* button  */
 .btn-default{
-  padding: 14px 37px;
+  padding: 16px 40px;
   background: url('../images/bg-btn-1.svg');
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-size: contain;
 
   font-style: normal;
   font-weight: 400;
@@ -97,6 +97,7 @@ h6{
 }
 .btn-default:hover{
   background: url('../images/bg-btn-2.svg');
+  background-repeat: no-repeat;
 }
 
 .container{
@@ -106,9 +107,23 @@ h6{
 
 /* section  */
 /* page index  */
-section.hero{
 
+/* section hero  */
+section.hero{
+  padding-bottom: 500px;
+  background: url('../images/bg-hero.png') no-repeat;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 section.hero .text-wrap{
   max-width: 494px;
+}
+
+/* section metaplanet  */
+section.metaplanet{
+  background: url('../images/bg-video.svg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-top:340px;
+  padding-bottom: 200px;
 }
