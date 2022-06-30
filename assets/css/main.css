@@ -190,7 +190,73 @@ section.elements .text-wrap{
   display: block !important;
 }
 
+.el-2{
+  background: url('../images/img-element-02.png');
+  /* background: white; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.el-2:hover{
+  background: url('../images/img-element-02-hover.png');
+  /* background: red; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.el-2:hover .text-element p{
+  display: block !important;
+}
+
+.el-3{
+  background: url('../images/img-element-03.png');
+  /* background: white; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.el-3:hover{
+  background: url('../images/img-element-03-hover.png');
+  /* background: red; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.el-3:hover .text-element p{
+  display: block !important;
+}
+
+.el-4{
+  background: url('../images/img-element-04.png');
+  /* background: white; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.el-4:hover{
+  background: url('../images/img-element-04-hover.png');
+  /* background: red; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.el-4:hover .text-element p{
+  display: block !important;
+}
+
 /* section support  */
+section.support{
+  padding: 100px 0;
+}
 .regular-content{
   max-width: 270px;
+}
+
+/* section deepspace  */
+section.deepspace{
+  padding: 130px 0;
+
+  background: url('../images/bg-deepspace.png');
+  background-position: center top;
+  background-repeat: no-repeat;
 }
