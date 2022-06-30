@@ -110,7 +110,7 @@ h6{
 
 /* section hero  */
 section.hero{
-  padding-bottom: 500px;
+  padding-bottom: 90px;
   background: url('../images/bg-hero.png') no-repeat;
   background-position: center top;
   background-repeat: no-repeat;
@@ -122,17 +122,48 @@ section.hero .text-wrap{
 /* section metaplanet  */
 section.metaplanet{
   background: url('../images/bg-video.svg');
-  background-position: center top;
+  background-position: center bottom;
   background-repeat: no-repeat;
-  padding-top:340px;
+  padding-top:123px;
   padding-bottom: 200px;
 }
 
+/* section transcendence  */
+section.transcendence{
+  padding: 182px 0 100px;
+}
 
+section.meta-planet{
+  padding: 100px 0;
+}
 
+/* section planet data  */
+section.planet-data{
+  padding: 100px 0;
+}
 
+/* section divider  */
+section.divider{
+  padding:100px 0;
+}
+
+/* section clean meta star  */
+section.clean-meta-star{
+  padding: 100px 0;
+}
+
+/* section evolution  */
+section.evolution-plan{
+  padding: 100px 0;
+}
 
 /* section elements  */
+section.elements{
+  padding: 100px 0;
+}
+section.elements .text-wrap{
+  max-width: 660px;
+}
 .element-wrap{
   max-width: 270px;
   max-height: 430px;
@@ -142,18 +173,21 @@ section.metaplanet{
 }
 
 .el-1{
-  background: url('../images/img-element-01-hover.png');
+  background: url('../images/img-element-01.png');
   /* background: white; */
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
 }
 .el-1:hover{
-  background: url('../images/img-element-02.png');
+  background: url('../images/img-element-01-hover.png');
   /* background: red; */
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
+}
+.el-1:hover .text-element p{
+  display: block !important;
 }
 
 /* section support  */
