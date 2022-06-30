@@ -598,8 +598,16 @@ video {
   visibility: visible;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .mx-auto {
@@ -609,6 +617,14 @@ video {
 
 .mr-6 {
   margin-right: 1.5rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
 }
 
 .mt-4 {
@@ -625,10 +641,6 @@ video {
 
 .mt-0 {
   margin-top: 0px;
-}
-
-.mr-12 {
-  margin-right: 3rem;
 }
 
 .block {
@@ -659,6 +671,10 @@ video {
   display: none;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-3 {
   height: 0.75rem;
 }
@@ -687,6 +703,34 @@ video {
   width: 50%;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
 .w-max {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -697,10 +741,6 @@ video {
   width: 0.75rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -709,36 +749,28 @@ video {
   width: auto;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
 .w-9 {
   width: 2.25rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-4\/5 {
-  width: 80%;
 }
 
 .w-4 {
   width: 1rem;
 }
 
-.w-11\/12 {
-  width: 91.666667%;
+.w-10 {
+  width: 2.5rem;
 }
 
-.w-11 {
-  width: 2.75rem;
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .max-w-screen-2xl {
@@ -777,6 +809,10 @@ video {
   flex-grow: 1;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -789,21 +825,31 @@ video {
   resize: both;
 }
 
+.columns-4 {
+  -moz-columns: 4;
+       columns: 4;
+}
+
 .columns-2 {
   -moz-columns: 2;
        columns: 2;
+}
+
+.columns-1 {
+  -moz-columns: 1;
+       columns: 1;
 }
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -830,12 +876,24 @@ video {
   align-items: center;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -886,6 +944,11 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -899,11 +962,6 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -958,19 +1016,23 @@ video {
   color: rgb(255 156 0 / var(--tw-text-opacity));
 }
 
-.text-teal-200 {
-  --tw-text-opacity: 1;
-  color: rgb(153 246 228 / var(--tw-text-opacity));
-}
-
 .text-meta-200 {
   --tw-text-opacity: 1;
   color: rgb(144 150 157 / var(--tw-text-opacity));
 }
 
+.text-teal-200 {
+  --tw-text-opacity: 1;
+  color: rgb(153 246 228 / var(--tw-text-opacity));
+}
+
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .outline {
@@ -1114,4 +1176,37 @@ section.metaplanet{
   background-repeat: no-repeat;
   padding-top:340px;
   padding-bottom: 200px;
+}
+
+/* section elements  */
+
+.element-wrap{
+  max-width: 270px;
+  max-height: 430px;
+}
+
+.text-element{
+  padding: 25px 15px;
+}
+
+.el-1{
+  background: url('../images/img-element-01-hover.png');
+  /* background: white; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+.el-1:hover{
+  background: url('../images/img-element-02.png');
+  /* background: red; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+/* section support  */
+
+.regular-content{
+  max-width: 270px;
 }

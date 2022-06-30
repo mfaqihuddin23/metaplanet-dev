@@ -127,3 +127,36 @@ section.metaplanet{
   padding-top:340px;
   padding-bottom: 200px;
 }
+
+
+
+
+
+/* section elements  */
+.element-wrap{
+  max-width: 270px;
+  max-height: 430px;
+}
+.text-element{
+  padding: 25px 15px;
+}
+
+.el-1{
+  background: url('../images/img-element-01-hover.png');
+  /* background: white; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+.el-1:hover{
+  background: url('../images/img-element-02.png');
+  /* background: red; */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+/* section support  */
+.regular-content{
+  max-width: 270px;
+}
