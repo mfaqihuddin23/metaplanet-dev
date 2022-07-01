@@ -1222,23 +1222,36 @@ h6{
 /* section hero  */
 
 section.hero{
-  padding-bottom: 90px;
-  background: url('../images/bg-hero.png') no-repeat;
+  padding-bottom: 275px;
+  /* background: url('../images/bg-hero.png') no-repeat;
+  background: url('../Header\ Final.mp4') no-repeat;
   background-position: center top;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 section.hero .text-wrap{
   max-width: 494px;
 }
 
+#videobg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height:auto;
+  width:auto;
+  z-index: -100;
+}
+
 /* section metaplanet  */
 
 section.metaplanet{
+  margin-top: 200px;
   background: url('../images/bg-video.svg');
-  background-position: center bottom;
+  background-position: center top;
   background-repeat: no-repeat;
-  padding-top:123px;
+  padding-top:50px;
   padding-bottom: 200px;
 }
 
