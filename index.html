@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
   <section class="hero max-w-screen-2xl relative flex flex-col content-center">
-    <video id="videobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+    <!-- <video id="videobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
       <source src="assets/Final-hero.mp4" type="video/mp4">
       <!-- <source src="movie.webm" type="video/webm"> -->
            Sorry, your browser does not support HTML5 video.
-    </video>
+    </video> -->
     <nav class="flex items-center justify-between flex-wrap p-6">
       <div class="container">
         <div class="flex items-center justify-between flex-shrink-0 text-white mr-6">
@@ -57,7 +58,10 @@
           SCROLL DOWN <br> TO CONTINUE
         </p>
       </div>
-      <img src="assets/images/img-metaplanet.png" alt="">
+      <img src="assets/images/bg-metaplanet-anim.png" alt="">
+      <div class="metaplanet-hover relative">
+        <div class="hover-wrap"></div>
+      </div>
     </div>
   </section>
   <section class="transcendence">
@@ -316,7 +320,70 @@
           </a>
         </div>
         <div class="slider w-6/12">
-          
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="speaks-wrap flex flex-col content-center">
+                  <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-14">
+                    Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
+                  </p>
+                  <div class="profile-wrap flex flex-col items-center">
+                    <img src="assets/images/img-profile-1.png" alt="" class="mb-5">
+                    <h6 class="font-ethno text-meta-100 mb-1.5">
+                      Johny Sembelyt
+                    </h6>
+                    <p class="body-4 font-poppins font-normal text-meta-200">
+                      CEO Plankdont
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="speaks-wrap flex flex-col content-center">
+                  <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-14">
+                    Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
+                  </p>
+                  <div class="profile-wrap flex flex-col items-center">
+                    <img src="assets/images/img-profile-2.png" alt="" class="mb-5">
+                    <h6 class="font-ethno text-meta-100 mb-1.5">
+                      Lara Hatimu
+                    </h6>
+                    <p class="body-4 font-poppins font-normal text-meta-200">
+                      Dropdok Coin
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="speaks-wrap flex flex-col content-center">
+                  <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-14">
+                    Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
+                  </p>
+                  <div class="profile-wrap flex flex-col items-center">
+                    <img src="assets/images/img-profile-1.png" alt="" class="mb-5">
+                    <h6 class="font-ethno text-meta-100 mb-1.5">
+                      Johny Sembelyta
+                    </h6>
+                    <p class="body-4 font-poppins font-normal text-meta-200">
+                      CEO Plankdont
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
         </div>
       </div>
       <div class="support w-9/12 flex flex-col items-center mb-20">
@@ -434,5 +501,8 @@
   <!-- <section class="footer">
     
   </section> -->
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="assets/js/slider.js"></script>
 </body>
 </html>
