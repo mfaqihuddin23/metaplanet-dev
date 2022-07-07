@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> -->
 </head>
 <body>
-  <section class="hero max-w-screen-2xl relative flex flex-col content-center">
+  <section class="hero max-w-screen-2xl relative flex flex-col content-center overflow-clip">
     <!-- <video id="videobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
       <source src="assets/Final-hero.mp4" type="video/mp4">
-      <!-- <source src="movie.webm" type="video/webm"> -->
+      <source src="movie.webm" type="video/webm">
            Sorry, your browser does not support HTML5 video.
     </video> -->
     <nav class="flex items-center justify-between flex-wrap p-6">
@@ -48,20 +48,64 @@
         <img src="assets/images/img-coordinates.svg" alt="" class="mx-auto">
       </div> -->
     </div>
+    <!-- <div class="planet-float absolute">
+      <img src="assets/images/img-planet-float.png" alt="" class="">
+    </div> -->
     
   </section>
   <section class="metaplanet">
     <div class="container">
-      <div class="scroll-down flex justify-center mb-52">
+      <div class="scroll-down flex justify-center mb-52 animate-bounce">
         <img src="assets/images/img-btn-scroll.svg" alt="" class="mr-4">
         <p class="body-4 font-poppins font-normal text-white">
           SCROLL DOWN <br> TO CONTINUE
         </p>
       </div>
-      <img src="assets/images/bg-metaplanet-anim.png" alt="">
-      <div class="metaplanet-hover relative">
-        <div class="hover-wrap"></div>
+      
+      <div class="metaplanet-hover relative inline-block">
+        <img src="assets/images/bg-metaplanet-anim.png" alt="">
+        <div class="hover1-wrap flex absolute">
+            <div class="meta-hover absolute hidden">
+                <h6 class="font-ethno text-white mb-1 minus120">META PLANET DATA</h6>
+                <svg width="137" height="56" viewBox="0 0 137 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M136.5 55V27L82.5 1H1" stroke="#FF9C00" stroke-linecap="round"/>
+                    <path d="M16.5 1H25.5V1C25.5 2.10457 24.6046 3 23.5 3H16.5V1Z" fill="#FF9C00"/>
+                </svg>
+            </div>
+            <img src="assets/images/icon-metaplanet-target.svg" alt="" class="target-hover">
+        </div>
+        <div class="hover2-wrap flex absolute">
+          <div class="meta-hover absolute hidden">
+              <h6 class="font-ethno text-white mb-1 minus80">Transendence</h6>
+              <svg width="137" height="56" viewBox="0 0 137 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M136.5 55V27L82.5 1H1" stroke="#FF9C00" stroke-linecap="round"/>
+                  <path d="M16.5 1H25.5V1C25.5 2.10457 24.6046 3 23.5 3H16.5V1Z" fill="#FF9C00"/>
+              </svg>
+          </div>
+          <img src="assets/images/icon-metaplanet-target.svg" alt="" class="target-hover">
+        </div>
+        <div class="hover3-wrap flex absolute">
+          <div class="meta-hover2 absolute hidden">
+              <h6 class="font-ethno text-white mb-1 minuslr1">Clean Meta Star</h6>
+              <svg width="137" height="50" viewBox="0 0 137 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 49V27L55 1L136.5 1" stroke="#FF9C00" stroke-linecap="round"/>
+                <path d="M121 1L112 1C112 2.10457 112.895 3 114 3L121 3V1Z" fill="#FF9C00"/>
+              </svg>
+          </div>
+          <img src="assets/images/icon-metaplanet-target.svg" alt="" class="target-hover">
+        </div>
+        <div class="hover4-wrap flex absolute">
+          <div class="meta-hover3 absolute hidden">
+              <svg width="137" height="56" viewBox="0 0 137 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1V29L55 55H136.5" stroke="#FF9C00" stroke-linecap="round"/>
+                <path d="M121 55H112C112 53.8954 112.895 53 114 53H121V55Z" fill="#FF9C00"/>
+              </svg>
+              <h6 class="font-ethno text-white mt-1 minuslr2">Evolutionary Plan</h6>
+          </div>
+          <img src="assets/images/icon-metaplanet-target.svg" alt="" class="target-hover">
+        </div>
       </div>
+      
     </div>
   </section>
   <section class="transcendence">
@@ -192,7 +236,7 @@
             </div>
           </a>
         </div>
-        <img src="assets/images/img-meta-star.png" alt="">
+        <!-- <img src="assets/images/img-meta-star.png" alt=""> -->
       </div>
     </div>
   </section>
