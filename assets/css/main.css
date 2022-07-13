@@ -51,7 +51,7 @@ h6{
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 120%;
+  line-height: 170%;
 }
 
 .body-1{
@@ -236,6 +236,7 @@ section.transcendence{
   padding: 182px 0 100px;
 }
 
+/* section meta planet  */
 section.meta-planet{
   padding: 100px 0;
 }
@@ -244,10 +245,29 @@ section.meta-planet{
 section.planet-data{
   padding: 100px 0;
 }
+.target-anim{
+  left: 295px;
+  bottom: 30px;
+}
+.animate-fadeIn {
+  animation: fadeIn 3s ease-in forwards infinite;
+}
 
 /* section divider  */
 section.divider{
   padding:100px 0;
+}
+.swiper-divider{
+  overflow: hidden;
+  background: #180D33;
+  padding: 54px 0;
+}
+.swiper-divider-free-mode > .swiper-wrapper{
+  transition-timing-function : linear;
+}
+.swiper-divider-free-mode > .swiper-wrapper .swiper-slide{
+  max-width: 467px;
+  margin-right: 4.5rem;
 }
 
 /* section clean meta star  */
@@ -367,10 +387,38 @@ section.support{
 }
 
 /* section deepspace  */
+
 section.deepspace{
   padding: 130px 0;
 
   background: url('../images/bg-deepspace.png');
   background-position: center top;
   background-repeat: no-repeat;
+}
+.accordion-button:not(.collapsed) {
+  color: #FFFFFF;
+  background-color: transparent;
+  box-shadow: inset 0 -1px 0 #e5e7eb;
+}
+.accordion-button::after{
+  margin-left: 0px;
+  background-image: url('../images/IconlyLightArrow.svg');
+}
+.accordion-button:not(.collapsed)::after{
+  transform: rotate(-180deg);
+  background-image: url('../images/IconlyLightArrow.svg');
+}
+button.btn-default{
+  padding: 18px 70px;
+}
+.swiper-detail {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  content: none !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  content: none !important;
 }
