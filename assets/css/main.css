@@ -395,10 +395,13 @@ section.deepspace{
   background-position: center top;
   background-repeat: no-repeat;
 }
+.accordion-item{
+  border-style: hidden;
+}
 .accordion-button:not(.collapsed) {
   color: #FFFFFF;
   background-color: transparent;
-  box-shadow: inset 0 -1px 0 #e5e7eb;
+  box-shadow: inset 0 -1px 0 transparent;
 }
 .accordion-button::after{
   margin-left: 0px;
@@ -421,4 +424,31 @@ button.btn-default{
 }
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
   content: none !important;
+}
+.box {
+  --all:20px;
+  --b:#FF9C00;
+  /* display:inline-block; */
+  /* margin:10px; */
+  border:1px solid var(--b);
+  backdrop-filter: blur(10px);
+  background:
+     linear-gradient(  45deg, var(--b) 0 calc(var(--bottom-left,var(--all)) + 1px) ,transparent 0) bottom left /50% 50%,
+     linear-gradient( -45deg, var(--b) 0 calc(var(--bottom-right,var(--all)) + 1px),transparent 0) bottom right/50% 50%,
+     linear-gradient( 135deg, var(--b) 0 calc(var(--top-left,var(--all)) + 1px)    ,transparent 0) top left    /50% 50%,
+     linear-gradient(-135deg, var(--b) 0 calc(var(--top-right,var(--all)) + 1px)   ,transparent 0) top right   /50% 50%,
+     var(--img,rgba(255, 0, 0, 0));
+  background-origin:border-box;
+  background-repeat:no-repeat;
+  -webkit-mask:
+     linear-gradient(  45deg, transparent 0 var(--bottom-left,var(--all)) ,#fff 0) bottom left,
+     linear-gradient( -45deg, transparent 0 var(--bottom-right,var(--all)),#fff 0) bottom right,
+     linear-gradient( 135deg, transparent 0 var(--top-left,var(--all))    ,#fff 0) top left,
+     linear-gradient(-135deg, transparent 0 var(--top-right,var(--all))   ,#fff 0) top right;
+   -webkit-mask-size:50.5% 50.5%;
+   -webkit-mask-repeat:no-repeat;
+}
+.box-header{
+  --all:20px;
+  padding: 30px 20px;
 }
