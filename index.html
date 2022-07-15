@@ -7,9 +7,101 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
+  <nav class="
+  relative
+  w-full
+  flex flex-wrap
+  items-center
+  justify-between
+  py-4
+  inline-block
+  shadow-lg
+  navbar navbar-expand-lg navbar-light
+  ">
+  <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+    <a href="" class="brand font-ethno text-white">
+      Meta <span class="text-meta-100">Planet</span>
+    </a>  
+    <button class="
+        navbar-toggler
+        text-gray-500
+        border-0
+        hover:shadow-none hover:no-underline
+        py-2
+        px-2.5
+        bg-transparent
+        focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+      " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <svg width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="8" y1="2" x2="29" y2="2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      <line x1="16.5" y1="1.5" x2="28.5" y2="1.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+      <line x1="1" y1="12" x2="29" y2="12" stroke="#FF9C00" stroke-width="2" stroke-linecap="round"/>
+      <line x1="8" y1="22" x2="29" y2="22" stroke="white" stroke-width="2" stroke-linecap="round"/>
+      <line x1="16.5" y1="21.5" x2="28.5" y2="21.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    </button>
+    <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+    
+    <!-- Left links -->
+    <ul class="navbar-nav py-10 flex flex-col pl-0 list-style-none mr-auto ">
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-meta-100 hover:text-meta-100 focus:text-meta-100 p-0" href="#">Home</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">We the Innovator</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">META PLANET</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">META DATA</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">A Clean Planet that Benefits All</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">THE Evolutionary Plan</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">PLANET ELEMENTS</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">Civic Engagement</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">SUPPORTERS</a>
+      </li>
+      <li class="nav-item flex justify-end p-2">
+        <a class="nav-link font-ethno text-white hover:text-white focus:text-white p-0" href="#">WORMHOLES</a>
+      </li>
+    </ul>
+    <!-- Left links -->
+    <div class="social-nav py-8 flex justify-center lg:justify-end border-t-2">
+      <a href="#" class="mr-4">
+        <img src="assets/images/icon-twitter.svg" alt="">
+      </a>
+      <a href="#" class="mr-4">
+        <img src="assets/images/icon-insta.svg" alt="">
+      </a>
+      <a href="#" class="mr-4">
+        <img src="assets/images/icon-youtube.svg" alt="">
+      </a>
+      <a href="#">
+        <img src="assets/images/icon-fb.svg" alt="">
+      </a>
+    </div>
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    
+    <!-- Right elements -->
+  </div>
+</nav>
   <section class="hero max-w-screen-2xl relative flex flex-col content-center overflow-clip">
     
-    <nav class="flex items-center justify-between flex-wrap p-6">
+    <!-- <nav class="flex items-center justify-between flex-wrap p-6">
       <div class="container">
         <div class="flex items-center justify-between flex-shrink-0 text-white mr-6">
           <a href="" class="brand font-ethno text-white">
@@ -20,7 +112,7 @@
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <div class="container">
       <div class="hero-element flex py-10 items-center">
         <div class="socmed mr-20">
@@ -103,11 +195,11 @@
     </div>
   </section>
   <section class="transcendence">
-    <div class="container flex justify-between">
+    <div class="container flex flex-col lg:flex-row justify-between">
       <div class="img-wrap">
         <img src="assets/images/img-transcend.png" alt="" class="">
       </div>
-      <div class="text-wrap w-7/12 flex flex-column flex-wrap content-between">
+      <div class="text-wrap lg:w-7/12 w-full flex flex-column flex-wrap content-between">
         <h2 class="font-ethno text-white ">
           We the Innovator
         </h2>
@@ -119,8 +211,8 @@
   </section>
   <section class="meta-planet">
     <div class="container">
-      <div class="flex justify-between">
-        <div class="text-wrap w-5/12">
+      <div class="flex flex-col lg:flex-row justify-between">
+        <div class="text-wrap lg:w-5/12 w-full">
           <img src="assets/images/img-line-orange.svg" alt="" class="mb-8">
           <h2 class="font-ethno text-white mb-8">
             META <br> PLANET
@@ -134,7 +226,7 @@
             </div>
           </a>
         </div>
-        <div class="grid grid-cols-1 divide-y w-6/12">
+        <div class="grid grid-cols-1 divide-y lg:w-6/12 w-full">
           <div class="flex items-center py-3">
             <p class="font-semibold body-2 font-poppins  text-meta-100">
               Librae
@@ -211,7 +303,7 @@
         </h2>
         <!-- <img src="assets/images/img-planet-data.svg" alt="" class="w-full"> -->
         <div class="meta-data-wrap relative w-fit">
-          <div class="target-anim flex absolute animate-fadeIn">
+          <div class="target-anim hidden lg:flex absolute animate-fadeIn">
             <svg width="708" height="305" viewBox="0 0 708 305" fill="none" xmlns="http://www.w3.org/2000/svg">
               <mask id="path-1-outside-1_506_1153" maskUnits="userSpaceOnUse" x="133" y="0" width="575" height="252" fill="black">
               <rect fill="white" x="133" width="575" height="252"/>
@@ -290,8 +382,8 @@
   </section>
   <section class="clean-meta-star">
     <div class="container">
-      <div class="flex justify-between items-start">
-        <div class="text-wrap w-5/12">
+      <div class="flex flex-col lg:flex-row justify-between items-start">
+        <div class="text-wrap lg:w-5/12 w-full">
           <img src="assets/images/img-line-orange.svg" alt="" class="mb-8">
           <h2 class="font-ethno text-white mb-8">
             A Clean Planet that Benefits All
@@ -311,10 +403,10 @@
   </section>
   <section class="evolution-plan">
     <div class="container">
-      <div class="flex justify-between">
+      <div class="flex flex-col lg:flex-row justify-between">
         <!-- <img src="assets/images/img-meta-pulse.svg" alt="" class="w-5/12"> -->
-        <div class="w-5/12">
-          <svg width="551" height="453" viewBox="0 0 551 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="lg:w-5/12 w-full">
+          <svg width="100%" height="100%" viewBox="0 0 551 453" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M399.647 372.12C399.852 372.484 400.03 372.806 400.179 373.086C400.338 373.357 400.473 373.599 400.585 373.814C400.706 374.029 400.809 374.225 400.893 374.402C400.986 374.579 401.075 374.752 401.159 374.92C401.234 374.752 401.313 374.584 401.397 374.416C401.49 374.239 401.593 374.043 401.705 373.828C401.826 373.604 401.962 373.357 402.111 373.086C402.27 372.815 402.452 372.498 402.657 372.134L404.155 369.474C404.323 369.175 404.533 368.937 404.785 368.76C405.046 368.573 405.368 368.48 405.751 368.48C406.115 368.48 406.442 368.587 406.731 368.802C407.03 369.007 407.244 369.329 407.375 369.768L409.741 378H406.857L405.975 374.738C405.826 374.206 405.7 373.739 405.597 373.338C405.494 372.937 405.406 372.545 405.331 372.162C405.172 372.489 404.995 372.853 404.799 373.254C404.603 373.646 404.346 374.145 404.029 374.752L402.769 377.104C402.648 377.337 402.522 377.524 402.391 377.664C402.27 377.795 402.144 377.897 402.013 377.972C401.882 378.047 401.742 378.093 401.593 378.112C401.444 378.14 401.28 378.154 401.103 378.154C400.926 378.154 400.762 378.14 400.613 378.112C400.464 378.093 400.324 378.047 400.193 377.972C400.062 377.897 399.932 377.795 399.801 377.664C399.68 377.524 399.558 377.337 399.437 377.104L398.177 374.738C398.009 374.421 397.86 374.136 397.729 373.884C397.598 373.632 397.477 373.408 397.365 373.212C397.262 373.007 397.169 372.82 397.085 372.652C397.01 372.484 396.936 372.321 396.861 372.162C396.786 372.535 396.698 372.927 396.595 373.338C396.492 373.739 396.371 374.206 396.231 374.738L395.349 378H392.507L394.929 369.768C395.06 369.329 395.274 369.007 395.573 368.802C395.872 368.587 396.203 368.48 396.567 368.48C396.94 368.48 397.253 368.569 397.505 368.746C397.766 368.923 397.981 369.166 398.149 369.474L399.647 372.12ZM416.22 372.358L414.806 374.164H410.13L411.544 372.358H416.22ZM427.741 368.634L425.865 371.07H422.519V378H419.621V371.07H415.225L417.101 368.634H427.741ZM433.842 368.48C436.12 368.48 437.828 368.867 438.966 369.642C440.114 370.417 440.688 371.639 440.688 373.31C440.688 374.99 440.119 376.217 438.98 376.992C437.842 377.767 436.129 378.154 433.842 378.154C431.546 378.154 429.829 377.767 428.69 376.992C427.561 376.217 426.996 374.99 426.996 373.31C426.996 371.639 427.566 370.417 428.704 369.642C429.843 368.867 431.556 368.48 433.842 368.48ZM433.842 375.718C434.57 375.718 435.186 375.69 435.69 375.634C436.194 375.569 436.6 375.447 436.908 375.27C437.226 375.093 437.454 374.85 437.594 374.542C437.734 374.225 437.804 373.814 437.804 373.31C437.804 372.806 437.734 372.4 437.594 372.092C437.454 371.775 437.226 371.532 436.908 371.364C436.6 371.187 436.194 371.07 435.69 371.014C435.186 370.949 434.57 370.916 433.842 370.916C433.114 370.916 432.498 370.949 431.994 371.014C431.49 371.07 431.08 371.187 430.762 371.364C430.454 371.532 430.23 371.775 430.09 372.092C429.95 372.4 429.88 372.806 429.88 373.31C429.88 373.814 429.95 374.225 430.09 374.542C430.23 374.85 430.454 375.093 430.762 375.27C431.08 375.447 431.49 375.569 431.994 375.634C432.498 375.69 433.114 375.718 433.842 375.718ZM453.968 378H449.586L446.758 375.536C446.272 375.116 445.899 374.789 445.638 374.556C445.386 374.323 445.18 374.127 445.022 373.968C445.031 374.183 445.04 374.407 445.05 374.64C445.059 374.864 445.064 375.088 445.064 375.312V378H442.152V368.634H445.064V370.804C445.064 371.093 445.059 371.378 445.05 371.658C445.04 371.938 445.026 372.199 445.008 372.442C445.194 372.274 445.418 372.069 445.68 371.826C445.95 371.574 446.3 371.271 446.73 370.916L449.432 368.634H453.632L450.048 371.322C449.74 371.555 449.464 371.761 449.222 371.938C448.988 372.115 448.778 372.269 448.592 372.4C448.405 372.531 448.232 372.647 448.074 372.75C447.924 372.853 447.775 372.951 447.626 373.044C447.896 373.231 448.223 373.464 448.606 373.744C448.988 374.024 449.483 374.411 450.09 374.906L453.968 378ZM465.799 375.592L463.937 378H454.921V368.634H465.771L463.895 371.07H457.833V372.19H465.253L463.587 374.318H457.833V375.592H465.799ZM476.28 378.154C476.094 378.154 475.907 378.121 475.72 378.056C475.543 378 475.342 377.865 475.118 377.65L469.378 372.498V378H466.746V370.23C466.746 369.922 466.788 369.656 466.872 369.432C466.966 369.208 467.082 369.026 467.222 368.886C467.372 368.746 467.54 368.643 467.726 368.578C467.922 368.513 468.123 368.48 468.328 368.48C468.506 368.48 468.683 368.513 468.86 368.578C469.047 368.634 469.257 368.769 469.49 368.984L475.23 374.136V368.634H477.876V376.39C477.876 376.698 477.83 376.964 477.736 377.188C477.652 377.412 477.536 377.599 477.386 377.748C477.246 377.888 477.078 377.991 476.882 378.056C476.686 378.121 476.486 378.154 476.28 378.154Z" fill="white"/>
             <path d="M412.35 129.12C412.555 129.484 412.733 129.806 412.882 130.086C413.041 130.357 413.176 130.599 413.288 130.814C413.409 131.029 413.512 131.225 413.596 131.402C413.689 131.579 413.778 131.752 413.862 131.92C413.937 131.752 414.016 131.584 414.1 131.416C414.193 131.239 414.296 131.043 414.408 130.828C414.529 130.604 414.665 130.357 414.814 130.086C414.973 129.815 415.155 129.498 415.36 129.134L416.858 126.474C417.026 126.175 417.236 125.937 417.488 125.76C417.749 125.573 418.071 125.48 418.454 125.48C418.818 125.48 419.145 125.587 419.434 125.802C419.733 126.007 419.947 126.329 420.078 126.768L422.444 135H419.56L418.678 131.738C418.529 131.206 418.403 130.739 418.3 130.338C418.197 129.937 418.109 129.545 418.034 129.162C417.875 129.489 417.698 129.853 417.502 130.254C417.306 130.646 417.049 131.145 416.732 131.752L415.472 134.104C415.351 134.337 415.225 134.524 415.094 134.664C414.973 134.795 414.847 134.897 414.716 134.972C414.585 135.047 414.445 135.093 414.296 135.112C414.147 135.14 413.983 135.154 413.806 135.154C413.629 135.154 413.465 135.14 413.316 135.112C413.167 135.093 413.027 135.047 412.896 134.972C412.765 134.897 412.635 134.795 412.504 134.664C412.383 134.524 412.261 134.337 412.14 134.104L410.88 131.738C410.712 131.421 410.563 131.136 410.432 130.884C410.301 130.632 410.18 130.408 410.068 130.212C409.965 130.007 409.872 129.82 409.788 129.652C409.713 129.484 409.639 129.321 409.564 129.162C409.489 129.535 409.401 129.927 409.298 130.338C409.195 130.739 409.074 131.206 408.934 131.738L408.052 135H405.21L407.632 126.768C407.763 126.329 407.977 126.007 408.276 125.802C408.575 125.587 408.906 125.48 409.27 125.48C409.643 125.48 409.956 125.569 410.208 125.746C410.469 125.923 410.684 126.166 410.852 126.474L412.35 129.12ZM426.445 135H423.547V125.634H426.445V135ZM437.741 135.154C437.555 135.154 437.368 135.121 437.181 135.056C437.004 135 436.803 134.865 436.579 134.65L430.839 129.498V135H428.207V127.23C428.207 126.922 428.249 126.656 428.333 126.432C428.427 126.208 428.543 126.026 428.683 125.886C428.833 125.746 429.001 125.643 429.187 125.578C429.383 125.513 429.584 125.48 429.789 125.48C429.967 125.48 430.144 125.513 430.321 125.578C430.508 125.634 430.718 125.769 430.951 125.984L436.691 131.136V125.634H439.337V133.39C439.337 133.698 439.291 133.964 439.197 134.188C439.113 134.412 438.997 134.599 438.847 134.748C438.707 134.888 438.539 134.991 438.343 135.056C438.147 135.121 437.947 135.154 437.741 135.154ZM443.986 135H441.088V125.634H443.986V135ZM455.282 135.154C455.096 135.154 454.909 135.121 454.722 135.056C454.545 135 454.344 134.865 454.12 134.65L448.38 129.498V135H445.748V127.23C445.748 126.922 445.79 126.656 445.874 126.432C445.968 126.208 446.084 126.026 446.224 125.886C446.374 125.746 446.542 125.643 446.728 125.578C446.924 125.513 447.125 125.48 447.33 125.48C447.508 125.48 447.685 125.513 447.862 125.578C448.049 125.634 448.259 125.769 448.492 125.984L454.232 131.136V125.634H456.878V133.39C456.878 133.698 456.832 133.964 456.738 134.188C456.654 134.412 456.538 134.599 456.388 134.748C456.248 134.888 456.08 134.991 455.884 135.056C455.688 135.121 455.488 135.154 455.282 135.154ZM464.369 129.148H470.361V135H463.935C463.123 135 462.372 134.879 461.681 134.636C460.99 134.393 460.393 134.062 459.889 133.642C459.394 133.213 459.002 132.709 458.713 132.13C458.433 131.542 458.293 130.907 458.293 130.226C458.293 129.545 458.433 128.924 458.713 128.364C459.002 127.795 459.394 127.309 459.889 126.908C460.393 126.497 460.99 126.185 461.681 125.97C462.372 125.746 463.123 125.634 463.935 125.634H470.641L468.765 128.07H463.935C463.543 128.07 463.179 128.126 462.843 128.238C462.507 128.35 462.213 128.509 461.961 128.714C461.718 128.919 461.527 129.162 461.387 129.442C461.247 129.713 461.177 130.016 461.177 130.352C461.177 130.688 461.242 130.996 461.373 131.276C461.513 131.547 461.704 131.78 461.947 131.976C462.199 132.172 462.493 132.326 462.829 132.438C463.165 132.541 463.534 132.592 463.935 132.592H467.477V131.234H462.633L464.369 129.148ZM486.066 129.372C487.214 129.372 488.087 129.587 488.684 130.016C489.281 130.436 489.58 131.075 489.58 131.934C489.58 132.41 489.505 132.839 489.356 133.222C489.207 133.605 488.969 133.927 488.642 134.188C488.315 134.449 487.895 134.65 487.382 134.79C486.878 134.93 486.271 135 485.562 135H476.84L478.702 132.592H485.786C486.131 132.592 486.383 132.541 486.542 132.438C486.701 132.326 486.78 132.149 486.78 131.906C486.78 131.663 486.701 131.491 486.542 131.388C486.383 131.285 486.131 131.234 485.786 131.234H480.69C480.083 131.234 479.561 131.169 479.122 131.038C478.683 130.907 478.319 130.725 478.03 130.492C477.741 130.259 477.526 129.979 477.386 129.652C477.246 129.316 477.176 128.947 477.176 128.546C477.176 128.107 477.251 127.711 477.4 127.356C477.559 126.992 477.797 126.684 478.114 126.432C478.441 126.18 478.856 125.984 479.36 125.844C479.873 125.704 480.485 125.634 481.194 125.634H489.328L487.466 128.07H480.97C480.634 128.07 480.382 128.117 480.214 128.21C480.055 128.303 479.976 128.471 479.976 128.714C479.976 128.957 480.055 129.129 480.214 129.232C480.382 129.325 480.634 129.372 480.97 129.372H486.066ZM508.588 129.148C508.588 129.671 508.485 130.147 508.28 130.576C508.074 130.996 507.771 131.355 507.37 131.654C506.978 131.953 506.497 132.186 505.928 132.354C505.358 132.522 504.71 132.606 503.982 132.606H499.082V135H496.198V130.212H504.262C504.71 130.212 505.055 130.114 505.298 129.918C505.55 129.722 505.676 129.461 505.676 129.134C505.676 128.807 505.55 128.551 505.298 128.364C505.055 128.168 504.71 128.07 504.262 128.07H496.198L498.116 125.634H503.996C504.724 125.634 505.372 125.723 505.942 125.9C506.511 126.068 506.992 126.306 507.384 126.614C507.776 126.922 508.074 127.291 508.28 127.72C508.485 128.149 508.588 128.625 508.588 129.148ZM516.614 125.48C518.891 125.48 520.599 125.867 521.738 126.642C522.886 127.417 523.46 128.639 523.46 130.31C523.46 131.99 522.89 133.217 521.752 133.992C520.613 134.767 518.9 135.154 516.614 135.154C514.318 135.154 512.6 134.767 511.462 133.992C510.332 133.217 509.768 131.99 509.768 130.31C509.768 128.639 510.337 127.417 511.476 126.642C512.614 125.867 514.327 125.48 516.614 125.48ZM516.614 132.718C517.342 132.718 517.958 132.69 518.462 132.634C518.966 132.569 519.372 132.447 519.68 132.27C519.997 132.093 520.226 131.85 520.366 131.542C520.506 131.225 520.576 130.814 520.576 130.31C520.576 129.806 520.506 129.4 520.366 129.092C520.226 128.775 519.997 128.532 519.68 128.364C519.372 128.187 518.966 128.07 518.462 128.014C517.958 127.949 517.342 127.916 516.614 127.916C515.886 127.916 515.27 127.949 514.766 128.014C514.262 128.07 513.851 128.187 513.534 128.364C513.226 128.532 513.002 128.775 512.862 129.092C512.722 129.4 512.652 129.806 512.652 130.31C512.652 130.814 512.722 131.225 512.862 131.542C513.002 131.85 513.226 132.093 513.534 132.27C513.851 132.447 514.262 132.569 514.766 132.634C515.27 132.69 515.886 132.718 516.614 132.718ZM531.475 125.48C533.752 125.48 535.46 125.867 536.599 126.642C537.747 127.417 538.321 128.639 538.321 130.31C538.321 131.99 537.752 133.217 536.613 133.992C535.474 134.767 533.762 135.154 531.475 135.154C529.179 135.154 527.462 134.767 526.323 133.992C525.194 133.217 524.629 131.99 524.629 130.31C524.629 128.639 525.198 127.417 526.337 126.642C527.476 125.867 529.188 125.48 531.475 125.48ZM531.475 132.718C532.203 132.718 532.819 132.69 533.323 132.634C533.827 132.569 534.233 132.447 534.541 132.27C534.858 132.093 535.087 131.85 535.227 131.542C535.367 131.225 535.437 130.814 535.437 130.31C535.437 129.806 535.367 129.4 535.227 129.092C535.087 128.775 534.858 128.532 534.541 128.364C534.233 128.187 533.827 128.07 533.323 128.014C532.819 127.949 532.203 127.916 531.475 127.916C530.747 127.916 530.131 127.949 529.627 128.014C529.123 128.07 528.712 128.187 528.395 128.364C528.087 128.532 527.863 128.775 527.723 129.092C527.583 129.4 527.513 129.806 527.513 130.31C527.513 130.814 527.583 131.225 527.723 131.542C527.863 131.85 528.087 132.093 528.395 132.27C528.712 132.447 529.123 132.569 529.627 132.634C530.131 132.69 530.747 132.718 531.475 132.718ZM549.934 132.592L548.058 135H539.784V125.634H542.682V132.592H549.934Z" fill="white"/>
             <path d="M7.74551 131.12C7.95084 131.484 8.12818 131.806 8.27751 132.086C8.43617 132.357 8.57151 132.599 8.68351 132.814C8.80484 133.029 8.90751 133.225 8.99151 133.402C9.08484 133.579 9.17351 133.752 9.25751 133.92C9.33217 133.752 9.41151 133.584 9.49551 133.416C9.58884 133.239 9.69151 133.043 9.80351 132.828C9.92484 132.604 10.0602 132.357 10.2095 132.086C10.3682 131.815 10.5502 131.498 10.7555 131.134L12.2535 128.474C12.4215 128.175 12.6315 127.937 12.8835 127.76C13.1448 127.573 13.4668 127.48 13.8495 127.48C14.2135 127.48 14.5402 127.587 14.8295 127.802C15.1282 128.007 15.3428 128.329 15.4735 128.768L17.8395 137H14.9555L14.0735 133.738C13.9242 133.206 13.7982 132.739 13.6955 132.338C13.5928 131.937 13.5042 131.545 13.4295 131.162C13.2708 131.489 13.0935 131.853 12.8975 132.254C12.7015 132.646 12.4448 133.145 12.1275 133.752L10.8675 136.104C10.7462 136.337 10.6202 136.524 10.4895 136.664C10.3682 136.795 10.2422 136.897 10.1115 136.972C9.98084 137.047 9.84084 137.093 9.69151 137.112C9.54217 137.14 9.37884 137.154 9.20151 137.154C9.02417 137.154 8.86084 137.14 8.71151 137.112C8.56217 137.093 8.42217 137.047 8.29151 136.972C8.16084 136.897 8.03017 136.795 7.89951 136.664C7.77817 136.524 7.65684 136.337 7.53551 136.104L6.27551 133.738C6.10751 133.421 5.95817 133.136 5.82751 132.884C5.69684 132.632 5.57551 132.408 5.46351 132.212C5.36084 132.007 5.26751 131.82 5.18351 131.652C5.10884 131.484 5.03417 131.321 4.95951 131.162C4.88484 131.535 4.79617 131.927 4.69351 132.338C4.59084 132.739 4.46951 133.206 4.32951 133.738L3.44751 137H0.605508L3.02751 128.768C3.15817 128.329 3.37284 128.007 3.67151 127.802C3.97017 127.587 4.30151 127.48 4.66551 127.48C5.03884 127.48 5.35151 127.569 5.60351 127.746C5.86484 127.923 6.07951 128.166 6.24751 128.474L7.74551 131.12ZM29.7786 134.592L27.9166 137H18.9006V127.634H29.7506L27.8746 130.07H21.8126V131.19H29.2326L27.5666 133.318H21.8126V134.592H29.7786ZM42.4017 127.634L40.5257 130.07H37.1797V137H34.2817V130.07H29.8857L31.7617 127.634H42.4017ZM47.2395 137L48.9895 134.592H51.3415C51.6215 134.592 51.9108 134.592 52.2095 134.592C52.5175 134.592 52.7835 134.601 53.0075 134.62C52.8768 134.452 52.7228 134.242 52.5455 133.99C52.3775 133.729 52.2142 133.486 52.0555 133.262L50.3755 130.784L45.9795 137H42.5495L48.5555 128.53C48.7515 128.259 48.9988 128.017 49.2975 127.802C49.5962 127.587 49.9742 127.48 50.4315 127.48C50.8702 127.48 51.2342 127.583 51.5235 127.788C51.8222 127.984 52.0742 128.231 52.2795 128.53L58.1315 137H47.2395ZM71.0782 134.592L69.2162 137H64.5122C63.7002 137 62.9489 136.879 62.2582 136.636C61.5676 136.393 60.9702 136.062 60.4662 135.642C59.9716 135.213 59.5796 134.709 59.2902 134.13C59.0102 133.542 58.8702 132.907 58.8702 132.226C58.8702 131.545 59.0102 130.924 59.2902 130.364C59.5796 129.795 59.9716 129.309 60.4662 128.908C60.9702 128.497 61.5676 128.185 62.2582 127.97C62.9489 127.746 63.7002 127.634 64.5122 127.634H71.0782L69.2162 130.07H64.5122C64.1202 130.07 63.7562 130.126 63.4202 130.238C63.0842 130.35 62.7949 130.509 62.5522 130.714C62.3096 130.91 62.1182 131.148 61.9782 131.428C61.8382 131.708 61.7682 132.016 61.7682 132.352C61.7682 132.688 61.8336 132.996 61.9642 133.276C62.1042 133.547 62.2956 133.78 62.5382 133.976C62.7902 134.172 63.0842 134.326 63.4202 134.438C63.7562 134.541 64.1202 134.592 64.5122 134.592H71.0782ZM78.6361 127.48C80.9135 127.48 82.6215 127.867 83.7601 128.642C84.9081 129.417 85.4821 130.639 85.4821 132.31C85.4821 133.99 84.9128 135.217 83.7741 135.992C82.6355 136.767 80.9228 137.154 78.6361 137.154C76.3401 137.154 74.6228 136.767 73.4841 135.992C72.3548 135.217 71.7901 133.99 71.7901 132.31C71.7901 130.639 72.3595 129.417 73.4981 128.642C74.6368 127.867 76.3495 127.48 78.6361 127.48ZM78.6361 134.718C79.3641 134.718 79.9801 134.69 80.4841 134.634C80.9881 134.569 81.3941 134.447 81.7021 134.27C82.0195 134.093 82.2481 133.85 82.3881 133.542C82.5281 133.225 82.5981 132.814 82.5981 132.31C82.5981 131.806 82.5281 131.4 82.3881 131.092C82.2481 130.775 82.0195 130.532 81.7021 130.364C81.3941 130.187 80.9881 130.07 80.4841 130.014C79.9801 129.949 79.3641 129.916 78.6361 129.916C77.9081 129.916 77.2921 129.949 76.7881 130.014C76.2841 130.07 75.8735 130.187 75.5561 130.364C75.2481 130.532 75.0241 130.775 74.8841 131.092C74.7441 131.4 74.6741 131.806 74.6741 132.31C74.6741 132.814 74.7441 133.225 74.8841 133.542C75.0241 133.85 75.2481 134.093 75.5561 134.27C75.8735 134.447 76.2841 134.569 76.7881 134.634C77.2921 134.69 77.9081 134.718 78.6361 134.718ZM89.8855 137H86.9875V127.634H89.8855V137ZM101.182 137.154C100.995 137.154 100.808 137.121 100.622 137.056C100.444 137 100.244 136.865 100.02 136.65L94.2796 131.498V137H91.6476V129.23C91.6476 128.922 91.6896 128.656 91.7736 128.432C91.867 128.208 91.9836 128.026 92.1236 127.886C92.273 127.746 92.441 127.643 92.6276 127.578C92.8236 127.513 93.0243 127.48 93.2296 127.48C93.407 127.48 93.5843 127.513 93.7616 127.578C93.9483 127.634 94.1583 127.769 94.3916 127.984L100.132 133.136V127.634H102.778V135.39C102.778 135.698 102.731 135.964 102.638 136.188C102.554 136.412 102.437 136.599 102.288 136.748C102.148 136.888 101.98 136.991 101.784 137.056C101.588 137.121 101.387 137.154 101.182 137.154Z" fill="white"/>
@@ -458,7 +550,7 @@
             </defs>
           </svg>
         </div>
-        <div class="text-wrap w-6/12 flex flex-col items-start justify-center">
+        <div class="text-wrap w-full lg:w-6/12 flex flex-col items-start justify-center">
           <img src="assets/images/img-line-orange.svg" alt="" class="mb-8">
           <h2 class="font-ethno text-white mb-8">
             THE Evolutionary Plan
@@ -486,9 +578,9 @@
           Vel pretium lectus quam id leo in vitae. Quis ipsum suspendisse ultrices gravida. In dictum non consectetur a. At auctor urna nunc id cursus metus aliquam eleifend. Amet consectetur adipiscing elit duis tristique sollicitudin nibh sit.
         </p>
       </div>
-      <div class="planet-elements flex justify-between mb-12">
-        <div class="element-wrap ">
-          <div class="planet-element el-1 mr-8 relative ">
+      <div class="planet-elements flex flex-col lg:flex-row justify-between mb-12">
+        <div class="element-wrap mb-10 lg:mb-0">
+          <div class="planet-element el-1 mr-0 lg:mr-8 relative ">
             <img src="assets/images/img-element-01.png" alt="" class="opacity-0">
             <div class="text-element absolute top-0 h-full flex flex-col justify-between">
               <h5 class="font-ethno text-white">01</h5>
@@ -503,7 +595,7 @@
             </div>
           </div>
         </div>
-        <div class="element-wrap ">
+        <div class="element-wrap mb-10 lg:mb-0">
           <div class="planet-element el-2 mr-8 relative ">
             <img src="assets/images/img-element-02-hover.png" alt="" class="opacity-0">
             <div class="text-element absolute top-0 h-full flex flex-col justify-between">
@@ -519,7 +611,7 @@
             </div>
           </div>
         </div>
-        <div class="element-wrap ">
+        <div class="element-wrap mb-10 lg:mb-0">
           <div class="planet-element el-3 mr-8 relative ">
             <img src="assets/images/img-element-03-hover.png" alt="" class="opacity-0">
             <div class="text-element absolute top-0 h-full flex flex-col justify-between">
@@ -535,7 +627,7 @@
             </div>
           </div>
         </div>
-        <div class="element-wrap ">
+        <div class="element-wrap mb-10 lg:mb-0">
           <div class="planet-element el-4 mr-8 relative ">
             <img src="assets/images/img-element-04-hover.png" alt="" class="opacity-0">
             <div class="text-element absolute top-0 h-full flex flex-col justify-between">
@@ -560,9 +652,9 @@
     </div>
   </section>
   <section class="support">
-    <div class="container flex flex-col items-center">
-      <div class="flex justify-between  mb-48">
-        <div class="text-wrap w-5/12">
+    <div class="container">
+      <div class="flex flex-col lg:flex-row justify-between  mb-48">
+        <div class="text-wrap lg:w-5/12 w-full">
           <img src="assets/images/img-line-orange.svg" alt="" class="mb-8">
           <h2 class="font-ethno text-white mb-8">
             Civic Engagement
@@ -577,57 +669,66 @@
             </div>
           </a>
         </div>
-        <div class="slider w-6/12">
+        <div class="slider lg:w-6/12 w-full">
           <!-- Slider main container -->
           <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide">
-                <div class="speaks-wrap flex flex-col content-center">
-                  <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-14">
-                    Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
-                  </p>
-                  <div class="profile-wrap flex flex-col items-center">
-                    <img src="assets/images/img-profile-1.png" alt="" class="mb-5">
-                    <h6 class="font-ethno text-meta-100 mb-1.5">
-                      Johny Sembelyt
-                    </h6>
-                    <p class="body-4 font-poppins font-normal text-meta-200">
-                      CEO Plankdont
+                <div class="relative speaks-box">
+                  <img src="assets/images/img-speaks-bg.png" alt="" class="absolute bg-speaks h-full">
+                  <div class="speaks-wrap flex flex-col content-center">
+                    <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-9 lg:mb-14">
+                      Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
                     </p>
+                    <div class="profile-wrap flex flex-col items-center">
+                      <img src="assets/images/img-profile-1.png" alt="" class="mb-5">
+                      <h6 class="font-ethno text-meta-100 mb-1.5">
+                        Johny Sembelyt
+                      </h6>
+                      <p class="body-4 font-poppins font-normal text-meta-200">
+                        CEO Plankdont
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="speaks-wrap flex flex-col content-center">
-                  <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-14">
-                    Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
-                  </p>
-                  <div class="profile-wrap flex flex-col items-center">
-                    <img src="assets/images/img-profile-2.png" alt="" class="mb-5">
-                    <h6 class="font-ethno text-meta-100 mb-1.5">
-                      Lara Hatimu
-                    </h6>
-                    <p class="body-4 font-poppins font-normal text-meta-200">
-                      Dropdok Coin
+                <div class="relative speaks-box">
+                  <img src="assets/images/img-speaks-bg.png" alt="" class="absolute bg-speaks h-full">
+                  <div class="speaks-wrap flex flex-col content-center">
+                    <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-9 lg:mb-14">
+                      Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
                     </p>
+                    <div class="profile-wrap flex flex-col items-center">
+                      <img src="assets/images/img-profile-1.png" alt="" class="mb-5">
+                      <h6 class="font-ethno text-meta-100 mb-1.5">
+                        Johny Sembelyt
+                      </h6>
+                      <p class="body-4 font-poppins font-normal text-meta-200">
+                        CEO Plankdont
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="speaks-wrap flex flex-col content-center">
-                  <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-14">
-                    Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
-                  </p>
-                  <div class="profile-wrap flex flex-col items-center">
-                    <img src="assets/images/img-profile-1.png" alt="" class="mb-5">
-                    <h6 class="font-ethno text-meta-100 mb-1.5">
-                      Johny Sembelyta
-                    </h6>
-                    <p class="body-4 font-poppins font-normal text-meta-200">
-                      CEO Plankdont
+                <div class="relative speaks-box">
+                  <img src="assets/images/img-speaks-bg.png" alt="" class="absolute bg-speaks h-full">
+                  <div class="speaks-wrap flex flex-col content-center">
+                    <p class="body-3 font-poppins font-normal text-meta-200 text-center mb-9 lg:mb-14">
+                      Nunc id cursus metus aliquam eleifend mi. Nunc id cursus etus aliquam eleifend mi in nulla posuere. Ac ut consequat semper viverra.
                     </p>
+                    <div class="profile-wrap flex flex-col items-center">
+                      <img src="assets/images/img-profile-1.png" alt="" class="mb-5">
+                      <h6 class="font-ethno text-meta-100 mb-1.5">
+                        Johny Sembelyt
+                      </h6>
+                      <p class="body-4 font-poppins font-normal text-meta-200">
+                        CEO Plankdont
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -644,7 +745,7 @@
           </div>
         </div>
       </div>
-      <div class="support w-9/12 flex flex-col items-center mb-20">
+      <div class="support lg:w-9/12 w-full flex flex-col items-center mb-20">
         <img src="assets/images/img-line-orange.svg" alt="" class="mb-8">
         <h2 class="font-ethno text-white text-center mb-8">
           SUPPORTERS
@@ -658,7 +759,7 @@
           </div>
         </a>
       </div>
-      <div class="post-wrap columns-2 gap-8 flex flex-1">
+      <div class="post-wrap columns-2 gap-8 flex flex-col lg:flex-row flex-1">
         <div class="reguler-wrap flex flex-col justify-between">
           <div class="regular-post flex justify-between mb-4">
             <div class="regular-content flex flex-col mr-2">
@@ -716,10 +817,10 @@
           Wormholes 
         </h2>
       </div>
-      <div class="accord-wrap flex justify-between items-start">
-        <div class="accordion w-6/12 box" id="accordionExample5">
-          <div class="accordion-item  border border-gray-200">
-            <h4 class="accordion-header box box-header mb-0" id="headingOne">
+      <div class="accord-wrap flex flex-col lg:flex-row justify-between items-start">
+        <div class="accordion w-full lg:w-6/12 box mb-5" id="accordionExample5">
+          <div class="accordion-item  border border-gray-200 ">
+            <h4 class="accordion-header box-header w-full mb-0" id="headingOne">
               <button class="
                 accordion-button
                 relative
@@ -867,10 +968,10 @@
             </div>
           </div>
         </div>
-        <div class="accord-box w-6/12 ml-28">
+        <div class="accord-box w-full lg:w-5/12 ">
           <div class="accordion mb-12 box w-full" id="accordionExample5">
             <div class="accordion-item  border border-gray-200">
-              <h4 class="accordion-header box box-header mb-0" id="headingTwo">
+              <h4 class="accordion-header box-header mb-0" id="headingTwo">
                 <button class="
                   accordion-button
                   relative
@@ -888,7 +989,7 @@
                   font-ethno 
                 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                   aria-controls="collapseTwo">
-                  TRANSMITTER
+                  TRANSMITTER <span class="mx-2"> </span>
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
@@ -914,7 +1015,7 @@
 
           <div class="accordion box w-full" id="accordionExample5">
             <div class="accordion-item  border border-gray-200">
-              <h4 class="accordion-header box box-header mb-0" id="headingThree">
+              <h4 class="accordion-header box-header mb-0" id="headingThree">
                 <button class="
                   accordion-button
                   relative
@@ -970,13 +1071,13 @@
       <!-- <img src="assets/images/img-deepspace-desc.png" alt=""> -->
       <!-- <div class="box" style="--all:12%;"></div> -->
     </div>
-    <div class="container flex justify-between">
-      <div class="logo-wrap">
+    <div class="container flex flex-col lg:flex-row justify-between">
+      <div class="logo-wrap mb-10">
         <h6 class="font-ethno text-white">
           META PLANET
         </h6>
       </div>
-      <div class="footer-wrap w-7/12">
+      <div class="footer-wrap lg:w-7/12 w-full">
         <div class="footer-nav mb-20">
           <ul class="flex justify-between">
             <li class="body-3 font-poppins font-normal text-white">
@@ -999,11 +1100,19 @@
             </li>
           </ul>
         </div>
-        <div class="social-nav flex">
-          <img src="assets/images/icon-twitter.svg" alt="" class="mr-4">
-          <img src="assets/images/icon-insta.svg" alt="" class="mr-4">
-          <img src="assets/images/icon-youtube.svg" alt="" class="mr-4">
-          <img src="assets/images/icon-fb.svg" alt="">
+        <div class="social-nav flex justify-center lg:justify-end">
+          <a href="#" class="mr-4">
+            <img src="assets/images/icon-twitter.svg" alt="">
+          </a>
+          <a href="#" class="mr-4">
+            <img src="assets/images/icon-insta.svg" alt="">
+          </a>
+          <a href="#" class="mr-4">
+            <img src="assets/images/icon-youtube.svg" alt="">
+          </a>
+          <a href="#">
+            <img src="assets/images/icon-fb.svg" alt="">
+          </a>
         </div>
       </div>
     </div>
