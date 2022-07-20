@@ -4152,10 +4152,6 @@ textarea.form-control.is-invalid {
   margin-right: 0.5rem;
 }
 
-.mr-auto {
-  margin-right: auto;
-}
-
 .mr-4 {
   margin-right: 1rem;
 }
@@ -4461,6 +4457,10 @@ textarea.form-control.is-invalid {
 
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -5245,6 +5245,25 @@ button.btn-default{
      linear-gradient(-135deg, transparent 0 var(--top-right,var(--all))   ,#fff 0) top right;
   -webkit-mask-size:50.5% 50.5%;
   -webkit-mask-repeat:no-repeat;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler{
+    display: inline-block;
+  }
+
+  .navbar-expand-lg .navbar-collapse{
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+  .navbar-expand-lg .navbar-nav{
+    flex-direction: column !important;
+  }
+
+  .collapse:not(.show){
+    display: none !important;
+  }
 }
 
 @media (min-width: 1024px) {
