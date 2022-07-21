@@ -138,11 +138,22 @@ section.hero .text-wrap{
 		transform: translatey(0px);
 	}
 }
+.video-play{
+  z-index: 1000;
+  /* transition: all ease-in-out .3s */
+  animation: fadeOut 5s ease-out 15s forwards;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 .planet-float{
   top:15%;
   right: -15%;
-  width: 957px;
-	height: 689px;
 	box-sizing: border-box;
 	/* border: 5px white solid; */
 	/* border-radius: 50%; */
@@ -151,6 +162,18 @@ section.hero .text-wrap{
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 	/* img { width: 100%; height: auto; } */
+  z-index: 0;
+}
+.planet-ring{
+  width: auto;
+  max-width: 957px;
+	height: auto;
+  max-height: 689px;
+}
+.descrip{
+  right: -19%;
+  z-index: -10;
+
 }
 #videobg {
   position: absolute;
@@ -255,7 +278,7 @@ section.planet-data{
   bottom: 30px;
 }
 .animate-fadeIn {
-  animation: fadeIn 3s ease-in forwards infinite;
+  animation: fadeIn 3s ease-in-out forwards infinite;
 }
 
 /* section divider  */

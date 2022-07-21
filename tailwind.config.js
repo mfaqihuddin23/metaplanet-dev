@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        fadeIn: "fadeIn 2s ease-in forwards"
+        fadeIn: "fadeIn 2s ease-in-out forwards"
       },
       keyframes: {
         fadeIn: {
